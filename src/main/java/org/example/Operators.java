@@ -1,6 +1,7 @@
 package org.example;
 
 public class Operators {
+    //Arithmatic Operators
     public static void main(String[] args) {
         int a = 10;
         int b =20;
@@ -19,5 +20,11 @@ public class Operators {
         System.out.println("Division is for double:"+div1);//returns in decimal
         System.out.println("Modulo is :"+modulo);
 
+        //Unary Operators
+        int number = 1;
+        System.out.println(number++);//2 1+1
+        System.out.println(++number);//3 2+1
+        System.out.println(number--);//3 no change
+        System.out.println(number);//2 3-2
     }
 }
