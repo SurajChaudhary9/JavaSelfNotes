@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Start {
     //Non Primitive Data-Types
     public static void main(String[] args) {
@@ -10,5 +11,9 @@ public class Start {
         //size in infinite upto memory // length is funcn returns length
         System.out.println("O/P 1 :"+name.length());
         //"O/P 1 :"+name.length() - COBINING TWO SOP'S USING "" +
+
+        //new keywords are using to create object of classes
+        //reference
+        System.out.println(name.charAt(1)); //charAt print m ...index starts from 0
     }
 }
