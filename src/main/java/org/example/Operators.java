@@ -26,5 +26,14 @@ public class Operators {
         System.out.println(++number);//3 2+1
         System.out.println(number--);//3 no change
         System.out.println(number);//2 3-2
+
+        //Comparison Operators
+        //a == b
+        //a !=b
+        //a<b
+        //a >b
+        //a<=b
+        //a>=b
+        
     }
 }
