@@ -4,7 +4,7 @@ public class Conditional {
     public static void main(String[] args) {
         //conditional statement    boolean sunUp = true;
         boolean isAdult = true;
-        if (isAdult)//by default assumes true no need to define
+        if (!isAdult)//by default assumes false implicitly using !
             System.out.println("Its a Adult");
         else
             System.out.println("Not Adult");
