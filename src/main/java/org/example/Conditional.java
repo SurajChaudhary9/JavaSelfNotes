@@ -12,9 +12,13 @@ public class Conditional {
         //Logical Operators
         int a = 50;
         int b = 110;
-        if(a < 100 && b < 100) //AND operator
-            System.out.println("Both are Less than 100");
+//        if(a < 100 && b < 100) //AND operator both condition should be true to enter if loop
+//            System.out.println("Both are Less than 100");
+//        else
+//            System.out.println("Either one is more than 100");
+        if(a < 100 || b < 100) //OR operator Atleast one should be true
+            System.out.println("Either one is True");
         else
-            System.out.println("Either one is more than 100");
+            System.out.println("None is true");
     }
 }
