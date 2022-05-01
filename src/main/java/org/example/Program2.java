@@ -2,7 +2,7 @@ package org.example;
 //Switch Statement / Case Statement
 public class Program2 {
     public static void main(String[] args) {
-        int day = 1;
+        int day = 2;
         switch(day){
             case 1:
                 System.out.println("Monday");
@@ -17,7 +17,7 @@ public class Program2 {
 }
 //Notes :
 /*
-o/p will be monday tuesday wednesday as value matches 1;
+o/p will be  tuesday wednesday Thursday as value matches 2;
 now the default statment matches if nothing vale found ;for eg invalid input
 
  */
